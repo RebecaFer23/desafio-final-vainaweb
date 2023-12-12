@@ -15,7 +15,6 @@
 
 @media (max-width: 680px) {
     .product {
-        border: solid;
         display: grid;
         grid-template-columns: 50vw;
         height: auto;
