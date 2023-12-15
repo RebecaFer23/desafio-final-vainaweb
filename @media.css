@@ -1,6 +1,6 @@
 @media (max-width: 1000px) {
     .product {
-        max-width: 155vh;
+        max-width: 160vh;
         height: auto;
         display: grid;
         grid-template-columns: 40vw 30vw;
@@ -8,9 +8,25 @@
         align-items: center;
     }
     .product img {
-        max-height: 38vh;
+        max-height: 42vh;
     }
 
+    .product img:hover {
+        opacity: 1;
+        transition: none;
+    }
+
+    input {
+        display: flex;
+        flex-direction: column;
+    }
+    .email
+     {
+        width: 32vw;
+    }
+    form .submit {
+        width: 20vw;
+    }
 }
 
 @media (max-width: 680px) {
@@ -24,6 +40,14 @@
 
     .product img {
         max-height: 50vh;
+    }
+
+    .product img:hover {
+        opacity: 1;
+        transition: none;
+    }
+    .product button {
+        width: 130px;
     }
 }
 
